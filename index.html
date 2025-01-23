@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ulang Tahunicikiwir</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6f2;
+      color: #333;
+    }
+    header {
+      background-color: #ff66b3;
+      color: white;
+      padding: 50px 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    p {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 20px 0;
+      background-color: #ff66b3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    button:hover {
+      background-color: #ff3385;
+    }
+    .video-container {
+      display: none;
+      margin-top: 20px;
+    }
+    video {
+      width: 90%;
+      max-width: 600px;
+      border: 2px solid #ff66b3;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Ickiwir 🎉</h1>
+    <p>Hari ini adal😭🤙🤙😭🤙💀🤙💀🤙😭ah hari spesialmu! Semoga kamu bsalam interaksi🌷🌷🌷🌷🌷🌷🌻🌷🌻🌻🌻🍆🫑🥬🫑🍆🍆🫘🥑🌶🥬🫒🥑🫒🥑ahagia selalu d🌷😎🤗😹🤭😀😀🤙😹😀🙏😀🙏😀💀an semua impianmu tercapai!🌷😎😎🌷😎🌷😎🌷😎🌷</p>
+  </header>
+
+  <main>
+    <button onclick="showVideo()">Lanjutkan</button>
+
+    <div class="video-container">
+      <video controls>
+        <!-- Ganti "video.mp4" dengan path video kamu -->
+        <source src="video.mp4" type="video/mp4">
+        Browser kamu tidak mendukung pemutar video.
+      </video>
+    </div>
+  </main>
+
+  <script>
+    function showVideo() {
+      document.querySelector('.video-container').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
